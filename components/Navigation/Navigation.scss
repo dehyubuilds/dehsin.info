@@ -1,0 +1,81 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+@import '../variables.scss';
+
+.Navigation {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0 0 0;
+  padding: 0;
+  padding-top: 0.3em;
+  list-style: none;
+  justify-content: center;
+  text-align: left;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+.Navigation-item {
+  padding: 0.5em 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.Navigation-icon-group {
+  .Navigation-icon {
+    border-bottom: 3px solid transparent;
+  }
+}
+
+.Navigation-link {
+  padding: 0.5em 0.5em;
+  color: rgb(143, 143, 143);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom: 3px solid $brand-color;
+    // color: $text-color;
+  }
+
+  &:active, &:focus {
+    text-decoration: none;
+  }
+
+  &.Navigation-icon {
+    display: inline-block;
+    font-size: 1.4em;
+    padding-bottom: 0.2em;
+    margin: 0 0.3em 0.3em 0.3em;
+  }
+
+  &.active {
+    text-decoration: none;
+    background-color: $brand-color;
+    color: white;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .Navigation {
+    flex-direction: column;
+    margin-bottom: 0.4em;
+    padding: 0;
+    justify-content: flex-end;
+    text-align: left;
+    border: none;
+    overflow: hidden;
+  }
+  .Navigation-icon-group {
+    text-align: left;
+    .Navigation-icon {
+      margin: 0 0 0.3em 0;
+    }
+  }
+}
+

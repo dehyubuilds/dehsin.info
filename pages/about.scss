@@ -1,0 +1,43 @@
+@import './index.scss';
+
+.about {
+  img {
+    border: 8px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2);
+  }
+  .caption {
+    margin: 1rem 0;
+    font-style: italic;
+  }
+  section {
+    margin: 0.8em 0;
+    em {
+      font-weight: bold;
+      margin-right: 1em;
+    }
+    strong {
+      color: $text-color;
+    }
+    p {
+      text-indent: 1em;
+    }
+  }
+  section.bio {
+    p {
+      padding-left:3.4em;
+      text-indent:-3.4em;
+    }
+  }
+  h3 {
+    font-size: 14px;
+    color: $text-color;
+    font-family: sans-serif;
+    font-weight: bold;
+    > span {
+      display: inline-block;
+      padding-bottom: 4px;
+      border-bottom: 3px solid $text-color;
+    }
+  }
+}

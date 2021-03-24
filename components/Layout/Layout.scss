@@ -1,0 +1,105 @@
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+@import '../variables.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: $body-bg;
+  color: $text-color;
+  font-family: $font-family-base;
+}
+
+body {
+  padding: 12vmin 0;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.Layout {
+  margin: 0 auto;
+}
+
+@media (min-width: $screen-sm-min) {
+  .Layout {
+    width: calc($screen-sm-min - 18px);
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .Layout {
+    width: calc($screen-md-min - 22px);
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .Layout {
+    width: calc($screen-lg-min - 30px);
+  }
+}
+
+.Layout {
+  font-family: Lato, Noto Sans Japanese, sans-serif;
+  color: rgb(143, 143, 143);
+  position: relative;
+
+  h1.title {
+    font-weight: normal;
+    font-size: 1.3em;
+    font-family: Noto Sans Japanese;
+    color: $text-color;
+  }
+
+  h2 {
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  p {
+    font-weight: normal;
+  }
+  .header-left-side {
+    text-align: center;
+  }
+  .page-container {
+    position: absolute;
+    top: 0;
+    padding-bottom: 3em;
+  }
+}
+
+.page-transition-enter {
+  opacity: 0.01;
+  transform: translateY(20px);
+}
+
+.page-transition-enter.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 700ms ease-out, transform 700ms ease-out;
+  transition-delay: 200ms;
+  transform: translateY(0);
+}
+
+.page-transition-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-leave.page-transition-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+  transform: translateY(20px);
+}
+
+.right.aligned {
+  text-align: right;
+}
+
+.center.aligned {
+  text-align: center;
+}

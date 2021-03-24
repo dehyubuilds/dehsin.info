@@ -1,0 +1,31 @@
+root: true
+plugins:
+  - prettier
+extends:
+  - plugin:prettier/recommended
+  - plugin:react/recommended
+parser: babel-eslint
+settings:
+  react:
+    version: "15.5"
+env:
+  browser: true
+globals:
+  __DEV__: true
+  fetch: true
+  FormData: true
+rules:
+  no-useless-escape: 0
+  prettier/prettier:
+    - 2
+    -
+      trailingComma: none
+      singleQuote: true
+      semi: false
+      arrowParens: avoid
+  prefer-const: 2
+  no-unused-vars:
+    - 2
+    -
+      argsIgnorePattern: ^_
+      varsIgnorePattern: ^_
