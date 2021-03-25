@@ -1,120 +1,121 @@
 webpackJsonp([3],{
 
-/***/ 561:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 583:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_scss__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__index_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_work_page_layout__ = __webpack_require__(589);
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 
-var _getPrototypeOf = __webpack_require__(71);
 
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(1);
 
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
 
-var _createClass2 = __webpack_require__(72);
+  enterModule && enterModule(module);
+})();
 
-var _createClass3 = _interopRequireDefault(_createClass2);
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
 
-var _possibleConstructorReturn2 = __webpack_require__(3);
 
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(2);
 
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-__webpack_require__(565);
-
-var _workPageLayout = __webpack_require__(566);
-
-var _workPageLayout2 = _interopRequireDefault(_workPageLayout);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var WorkPage = function (_Component) {
-  (0, _inherits3.default)(WorkPage, _Component);
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default()(WorkPage, _Component);
 
   function WorkPage() {
-    (0, _classCallCheck3.default)(this, WorkPage);
-    return (0, _possibleConstructorReturn3.default)(this, (WorkPage.__proto__ || (0, _getPrototypeOf2.default)(WorkPage)).apply(this, arguments));
+    __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default()(this, WorkPage);
+
+    return __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (WorkPage.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(WorkPage)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(WorkPage, [{
+  __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(WorkPage, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
-        _workPageLayout2.default,
+      return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_7__components_work_page_layout__["a" /* default */],
         {
           title: WorkPage.title,
           eyecatch: '/works/styly_eyecatch.png'
         },
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'div',
           null,
-          _react2.default.createElement('img', {
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
             src: '/works/styly_01.png',
             className: 'image-screenshot',
             alt: 'image screenshot'
           })
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'div',
           null,
-          _react2.default.createElement('img', {
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
             src: '/works/styly_02.png',
             className: 'image-screenshot',
             alt: 'image screenshot'
           })
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'div',
           null,
-          _react2.default.createElement('img', {
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
             src: '/works/styly_03.png',
             className: 'image-screenshot',
             alt: 'image screenshot'
           })
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'h3',
           null,
           'STYLY (2017, Psychic VR Lab)'
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'div',
           { className: 'work-description' },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'div',
             null,
             '\u30D5\u30A1\u30C3\u30B7\u30E7\u30F3\u30D6\u30E9\u30F3\u30C9\u306E\u305F\u3081\u306EVR\u30C4\u30FC\u30EB'
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'div',
             null,
             'VR Creative tools for fashion brand'
           )
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'div',
           null,
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'ul',
             null,
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
               'li',
               null,
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'a',
                 { href: 'http://suite.styly.cc/' },
                 'Website'
@@ -122,15 +123,15 @@ var WorkPage = function (_Component) {
             )
           )
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
           'div',
           { className: 'work-long-description' },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'p',
             null,
             '\u4E3B\u306B\u30E6\u30FC\u30B6\u8A8D\u8A3C\u30FB\u30A2\u30BB\u30C3\u30C8\u9078\u629E\u306A\u3069\u306EUI\u3068\u3001\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u3092\u62C5\u5F53\u3002'
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'p',
             null,
             'This is a VR tool for building virtual space towards extending fashion brand\'s expression ability of their concept. I developed its web UIs and backend.'
@@ -138,26 +139,48 @@ var WorkPage = function (_Component) {
         )
       );
     }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
   }]);
+
   return WorkPage;
-}(_react.Component); /**
-                      * React Static Boilerplate
-                      * https://github.com/koistya/react-static-boilerplate
-                      * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
-                      */
+}(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
 
 WorkPage.title = 'STYLY';
 WorkPage.image = '/works/styly_eyecatch.png';
 WorkPage.description = 'VR Creative tools for fashion brand';
-exports.default = WorkPage;
-module.exports = exports['default'];
+var _default = WorkPage;
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(WorkPage, 'WorkPage', '/Users/dehsin/Desktop/dehsin.info/pages/works/styly.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/pages/works/styly.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
 
 /***/ }),
 
-/***/ 564:
+/***/ 586:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -169,128 +192,10 @@ exports.push([module.i, "/**\n * React Static Boilerplate\n * https://github.com
 
 /***/ }),
 
-/***/ 565:
+/***/ 587:
 /***/ (function(module, exports, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(564);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/lib/index.js??ref--7-2!./index.scss", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/lib/index.js??ref--7-2!./index.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-
-/***/ 566:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _getPrototypeOf = __webpack_require__(71);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(72);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(6);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-__webpack_require__(568);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var WorkPageLayout = function (_Component) {
-  (0, _inherits3.default)(WorkPageLayout, _Component);
-
-  function WorkPageLayout() {
-    (0, _classCallCheck3.default)(this, WorkPageLayout);
-    return (0, _possibleConstructorReturn3.default)(this, (WorkPageLayout.__proto__ || (0, _getPrototypeOf2.default)(WorkPageLayout)).apply(this, arguments));
-  }
-
-  (0, _createClass3.default)(WorkPageLayout, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'work-detail' },
-        _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement('img', {
-            src: this.props.eyecatch,
-            className: 'image-eyecatch',
-            alt: 'cover image'
-          })
-        ),
-        this.props.children
-      );
-    }
-  }]);
-  return WorkPageLayout;
-}(_react.Component); /**
-                      * React Static Boilerplate
-                      * https://github.com/koistya/react-static-boilerplate
-                      * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
-                      */
-
-WorkPageLayout.propTypes = {
-  title: _propTypes2.default.string.isRequired,
-  eyecatch: _propTypes2.default.string.isRequired,
-  children: _propTypes2.default.node.isRequired
-};
-exports.default = WorkPageLayout;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ 567:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -302,13 +207,13 @@ exports.push([module.i, ".work-detail h3 {\n    font-weight: bold;\n    color: #
 
 /***/ }),
 
-/***/ 568:
+/***/ 588:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(567);
+var content = __webpack_require__(586);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -316,15 +221,156 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./work-page-layout.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./work-page-layout.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(586, function() {
+			var newContent = __webpack_require__(586);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ 589:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__work_page_layout_scss__ = __webpack_require__(590);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__work_page_layout_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__work_page_layout_scss__);
+
+
+
+
+
+
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+
+
+
+
+var WorkPageLayout = function (_Component) {
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default()(WorkPageLayout, _Component);
+
+  function WorkPageLayout() {
+    __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default()(this, WorkPageLayout);
+
+    return __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (WorkPageLayout.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(WorkPageLayout)).apply(this, arguments));
+  }
+
+  __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(WorkPageLayout, [{
+    key: 'render',
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+        'div',
+        { className: 'work-detail' },
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+          'div',
+          null,
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
+            src: this.props.eyecatch,
+            className: 'image-eyecatch',
+            alt: 'cover image'
+          })
+        ),
+        this.props.children
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return WorkPageLayout;
+}(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
+
+WorkPageLayout.propTypes = {
+  title: __WEBPACK_IMPORTED_MODULE_6_prop_types___default.a.string.isRequired,
+  eyecatch: __WEBPACK_IMPORTED_MODULE_6_prop_types___default.a.string.isRequired,
+  children: __WEBPACK_IMPORTED_MODULE_6_prop_types___default.a.node.isRequired
+};
+var _default = WorkPageLayout;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(WorkPageLayout, 'WorkPageLayout', '/Users/dehsin/Desktop/dehsin.info/components/work-page-layout.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/components/work-page-layout.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
+
+/***/ }),
+
+/***/ 590:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(587);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(47)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(true) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept(587, function() {
+			var newContent = __webpack_require__(587);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}

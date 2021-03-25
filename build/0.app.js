@@ -1,76 +1,70 @@
 webpackJsonp([0],{
 
-/***/ 551:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 573:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_asyncToGenerator__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_asyncToGenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_asyncToGenerator__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_defineProperty__ = __webpack_require__(602);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_extends__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_scss__ = __webpack_require__(607);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__contact_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_send_email__ = __webpack_require__(610);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_loader__ = __webpack_require__(601);
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 
-var _regenerator = __webpack_require__(248);
 
-var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__(247);
 
-var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _defineProperty2 = __webpack_require__(573);
 
-var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _extends3 = __webpack_require__(4);
 
-var _extends4 = _interopRequireDefault(_extends3);
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
 
-var _getPrototypeOf = __webpack_require__(71);
+  enterModule && enterModule(module);
+})();
 
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
 
-var _classCallCheck2 = __webpack_require__(1);
 
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(72);
 
-var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(3);
 
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-__webpack_require__(585);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactBootstrap = __webpack_require__(244);
-
-var _sendEmail2 = __webpack_require__(588);
-
-var _sendEmail3 = _interopRequireDefault(_sendEmail2);
-
-var _loader = __webpack_require__(572);
-
-var _loader2 = _interopRequireDefault(_loader);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ContactPage = function (_Component) {
-  (0, _inherits3.default)(ContactPage, _Component);
+  __WEBPACK_IMPORTED_MODULE_8_babel_runtime_helpers_inherits___default()(ContactPage, _Component);
 
   function ContactPage(props) {
-    (0, _classCallCheck3.default)(this, ContactPage);
+    __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_classCallCheck___default()(this, ContactPage);
 
-    var _this = (0, _possibleConstructorReturn3.default)(this, (ContactPage.__proto__ || (0, _getPrototypeOf2.default)(ContactPage)).call(this, props));
+    var _this = __WEBPACK_IMPORTED_MODULE_7_babel_runtime_helpers_possibleConstructorReturn___default()(this, (ContactPage.__proto__ || __WEBPACK_IMPORTED_MODULE_4_babel_runtime_core_js_object_get_prototype_of___default()(ContactPage)).call(this, props));
 
     _this.state = {
       loading: false,
@@ -88,33 +82,33 @@ var ContactPage = function (_Component) {
     return _this;
   }
 
-  (0, _createClass3.default)(ContactPage, [{
+  __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_createClass___default()(ContactPage, [{
     key: 'renderLoader',
     value: function renderLoader() {
       if (this.state.loading) {
-        return _react2.default.createElement(
+        return __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
           'div',
           { className: 'overlay' },
-          _react2.default.createElement(_loader2.default, null)
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_13__components_loader__["a" /* default */], null)
         );
       }
     }
   }, {
     key: 'renderForm',
     value: function renderForm() {
-      return _react2.default.createElement(
+      return __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
         'form',
         { onSubmit: this.handleSubmit.bind(this) },
         this.renderError(),
-        _react2.default.createElement(
-          _reactBootstrap.FormGroup,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* FormGroup */],
           null,
-          _react2.default.createElement(
-            _reactBootstrap.ControlLabel,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["d" /* ControlLabel */],
             null,
             'Your E-mail Address *'
           ),
-          _react2.default.createElement(_reactBootstrap.FormControl, {
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["e" /* FormControl */], {
             type: 'email',
             name: 'email',
             maxLength: 100,
@@ -123,15 +117,15 @@ var ContactPage = function (_Component) {
             required: true
           })
         ),
-        _react2.default.createElement(
-          _reactBootstrap.FormGroup,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* FormGroup */],
           null,
-          _react2.default.createElement(
-            _reactBootstrap.ControlLabel,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["d" /* ControlLabel */],
             null,
             'Your full name *'
           ),
-          _react2.default.createElement(_reactBootstrap.FormControl, {
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["e" /* FormControl */], {
             type: 'text',
             name: 'name',
             maxLength: 100,
@@ -140,15 +134,15 @@ var ContactPage = function (_Component) {
             required: true
           })
         ),
-        _react2.default.createElement(
-          _reactBootstrap.FormGroup,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* FormGroup */],
           null,
-          _react2.default.createElement(
-            _reactBootstrap.ControlLabel,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["d" /* ControlLabel */],
             null,
             'Your company name'
           ),
-          _react2.default.createElement(_reactBootstrap.FormControl, {
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["e" /* FormControl */], {
             type: 'text',
             name: 'company',
             maxLength: 100,
@@ -156,15 +150,15 @@ var ContactPage = function (_Component) {
             value: this.state.data.company
           })
         ),
-        _react2.default.createElement(
-          _reactBootstrap.FormGroup,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* FormGroup */],
           null,
-          _react2.default.createElement(
-            _reactBootstrap.ControlLabel,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["d" /* ControlLabel */],
             null,
             'URL (ex. homepage)'
           ),
-          _react2.default.createElement(_reactBootstrap.FormControl, {
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["e" /* FormControl */], {
             type: 'text',
             name: 'url',
             maxLength: 100,
@@ -173,15 +167,15 @@ var ContactPage = function (_Component) {
             value: this.state.data.url
           })
         ),
-        _react2.default.createElement(
-          _reactBootstrap.FormGroup,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* FormGroup */],
           null,
-          _react2.default.createElement(
-            _reactBootstrap.ControlLabel,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["d" /* ControlLabel */],
             null,
             'Subject *'
           ),
-          _react2.default.createElement(_reactBootstrap.FormControl, {
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["e" /* FormControl */], {
             type: 'text',
             name: 'subject',
             maxLength: 100,
@@ -190,15 +184,15 @@ var ContactPage = function (_Component) {
             value: this.state.data.subject
           })
         ),
-        _react2.default.createElement(
-          _reactBootstrap.FormGroup,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["c" /* FormGroup */],
           null,
-          _react2.default.createElement(
-            _reactBootstrap.ControlLabel,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["d" /* ControlLabel */],
             null,
             'Message *'
           ),
-          _react2.default.createElement(_reactBootstrap.FormControl, {
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["e" /* FormControl */], {
             componentClass: 'textarea',
             rows: 8,
             maxLength: 800,
@@ -209,11 +203,11 @@ var ContactPage = function (_Component) {
             value: this.state.data.body
           })
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
           'div',
           { className: 'right aligned' },
-          _react2.default.createElement(
-            _reactBootstrap.Button,
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["f" /* Button */],
             { type: 'submit', bsStyle: 'primary' },
             'Submit'
           )
@@ -224,18 +218,18 @@ var ContactPage = function (_Component) {
   }, {
     key: 'renderEmailSent',
     value: function renderEmailSent() {
-      return _react2.default.createElement(
+      return __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
         'div',
         { className: 'email-sent-section' },
-        _react2.default.createElement(
-          _reactBootstrap.Alert,
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["g" /* Alert */],
           { bsStyle: 'info' },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
             'strong',
             null,
             'Your message has been sent!'
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
             'p',
             null,
             'Thank you for your contact. I will respond to your email as soon as possible.'
@@ -249,15 +243,15 @@ var ContactPage = function (_Component) {
       var e = this.state.error;
 
       if (e) {
-        return _react2.default.createElement(
-          _reactBootstrap.Alert,
+        return __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_11_react_bootstrap__["g" /* Alert */],
           { bsStyle: 'danger' },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
             'strong',
             null,
             'Sorry, failed to send an email'
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
             'p',
             null,
             e.message
@@ -268,18 +262,18 @@ var ContactPage = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
+      return __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
         'div',
         { className: 'contact-page' },
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
           'div',
           { className: 'content-container' },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
             'h2',
             null,
             'Contact me'
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_10_react___default.a.createElement(
             'p',
             null,
             'Hi! That\'s great you are trying to reach out to me. I\'m available for freelance work, I want to hear about your projects. Please fill below forms and submit.'
@@ -294,7 +288,7 @@ var ContactPage = function (_Component) {
       var data = this.state.data;
 
       this.setState({
-        data: (0, _extends4.default)({}, data, (0, _defineProperty3.default)({}, e.target.name, e.target.value))
+        data: __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_extends___default()({}, data, __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_defineProperty___default()({}, e.target.name, e.target.value))
       });
     }
   }, {
@@ -306,9 +300,9 @@ var ContactPage = function (_Component) {
   }, {
     key: 'sendEmail',
     value: function () {
-      var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
+      var _ref = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_asyncToGenerator___default()( /*#__PURE__*/__WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.mark(function _callee() {
         var data, subject, body;
-        return _regenerator2.default.wrap(function _callee$(_context) {
+        return __WEBPACK_IMPORTED_MODULE_0_babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -318,7 +312,7 @@ var ContactPage = function (_Component) {
                 subject = '[Craftzdog Contact Form] ' + data.subject;
                 body = '\nName: ' + data.name + '\nFrom: ' + data.email + '\nCompany: ' + data.company + '\nURL: ' + data.url + '\n\n' + data.body + '\n      ';
                 _context.next = 7;
-                return (0, _sendEmail3.default)(subject, body);
+                return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__utils_send_email__["a" /* default */])(subject, body);
 
               case 7:
                 this.setState({ loading: false, emailSent: true });
@@ -346,59 +340,103 @@ var ContactPage = function (_Component) {
 
       return sendEmail;
     }()
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
   }]);
+
   return ContactPage;
-}(_react.Component); /**
-                      * React Static Boilerplate
-                      * https://github.com/koistya/react-static-boilerplate
-                      * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
-                      */
+}(__WEBPACK_IMPORTED_MODULE_10_react__["Component"]);
 
 ContactPage.title = 'Contact to Takuya';
 ContactPage.image = '/me.jpg';
 ContactPage.description = 'Contact form';
-exports.default = ContactPage;
-module.exports = exports['default'];
+var _default = ContactPage;
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(ContactPage, 'ContactPage', '/Users/dehsin/Desktop/dehsin.info/pages/contact.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/pages/contact.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
 
 /***/ }),
 
-/***/ 572:
+/***/ 594:
 /***/ (function(module, exports, __webpack_require__) {
 
+exports = module.exports = __webpack_require__(46)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".loader {\n    border: 8px solid #f3f3f3; /* Light grey */\n    border-top: 8px solid #3498db; /* Blue */\n    border-radius: 50%;\n    width: 48px;\n    height: 48px;\n    -webkit-animation: spin 1s linear infinite;\n         -o-animation: spin 1s linear infinite;\n            animation: spin 1s linear infinite;\n}\n\n@-webkit-keyframes spin {\n    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}\n\n@-o-keyframes spin {\n    0% { -o-transform: rotate(0deg); transform: rotate(0deg); }\n    100% { -o-transform: rotate(360deg); transform: rotate(360deg); }\n}\n\n@keyframes spin {\n    0% { -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }\n    100% { -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 598:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(46)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".contact-page .content-container {\n    background: white;\n    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);\n            box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);\n    border: 1px solid rgba(0, 0, 0, 0.1);\n    border-radius: 4px;\n    padding: 1em;\n    margin: 1em 0;\n}\n.contact-page form {\n    position: relative;\n}\n.contact-page .overlay {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    position: absolute;\n    left: 0;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    background-color: rgba(255, 255, 255, 0.6);\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n.contact-page .email-sent-section {\n    margin-top: 1rem;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 601:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
 "use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__loader_scss__ = __webpack_require__(603);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__loader_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__loader_scss__);
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 
-var _getPrototypeOf = __webpack_require__(71);
 
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(1);
 
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
 
-var _createClass2 = __webpack_require__(72);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-__webpack_require__(581);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  enterModule && enterModule(module);
+})();
 
 /**
  * React Static Boilerplate
@@ -406,29 +444,59 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
+
+
+
 var Loader = function (_Component) {
-  (0, _inherits3.default)(Loader, _Component);
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default()(Loader, _Component);
 
   function Loader() {
-    (0, _classCallCheck3.default)(this, Loader);
-    return (0, _possibleConstructorReturn3.default)(this, (Loader.__proto__ || (0, _getPrototypeOf2.default)(Loader)).apply(this, arguments));
+    __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default()(this, Loader);
+
+    return __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (Loader.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(Loader)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(Loader, [{
+  __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(Loader, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('div', { className: 'loader' });
+      return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('div', { className: 'loader' });
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
     }
   }]);
-  return Loader;
-}(_react.Component);
 
-exports.default = Loader;
-module.exports = exports['default'];
+  return Loader;
+}(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
+
+var _default = Loader;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(Loader, 'Loader', '/Users/dehsin/Desktop/dehsin.info/components/loader.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/components/loader.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
 
 /***/ }),
 
-/***/ 573:
+/***/ 602:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -436,7 +504,7 @@ module.exports = exports['default'];
 
 exports.__esModule = true;
 
-var _defineProperty = __webpack_require__(246);
+var _defineProperty = __webpack_require__(259);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -459,43 +527,13 @@ exports.default = function (obj, key, value) {
 
 /***/ }),
 
-/***/ 574:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(44)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".loader {\n    border: 8px solid #f3f3f3; /* Light grey */\n    border-top: 8px solid #3498db; /* Blue */\n    border-radius: 50%;\n    width: 48px;\n    height: 48px;\n    -webkit-animation: spin 1s linear infinite;\n         -o-animation: spin 1s linear infinite;\n            animation: spin 1s linear infinite;\n}\n\n@-webkit-keyframes spin {\n    0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n    100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}\n\n@-o-keyframes spin {\n    0% { -o-transform: rotate(0deg); transform: rotate(0deg); }\n    100% { -o-transform: rotate(360deg); transform: rotate(360deg); }\n}\n\n@keyframes spin {\n    0% { -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); }\n    100% { -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); transform: rotate(360deg); }\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 578:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(44)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".contact-page .content-container {\n    background: white;\n    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);\n            box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);\n    border: 1px solid rgba(0, 0, 0, 0.1);\n    border-radius: 4px;\n    padding: 1em;\n    margin: 1em 0;\n}\n.contact-page form {\n    position: relative;\n}\n.contact-page .overlay {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    position: absolute;\n    left: 0;\n    right: 0;\n    top: 0;\n    bottom: 0;\n    background-color: rgba(255, 255, 255, 0.6);\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n.contact-page .email-sent-section {\n    margin-top: 1rem;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 581:
+/***/ 603:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(574);
+var content = __webpack_require__(594);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -503,15 +541,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./loader.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./loader.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(594, function() {
+			var newContent = __webpack_require__(594);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}
@@ -521,13 +559,13 @@ if(false) {
 
 /***/ }),
 
-/***/ 585:
+/***/ 607:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(578);
+var content = __webpack_require__(598);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -535,15 +573,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./contact.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./contact.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(598, function() {
+			var newContent = __webpack_require__(598);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}
@@ -553,12 +591,11 @@ if(false) {
 
 /***/ }),
 
-/***/ 588:
+/***/ 610:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (immutable) */ __webpack_exports__["default"] = sendEmail;
+/* harmony export (immutable) */ __webpack_exports__["a"] = sendEmail;
 function sendEmail(subject, body) {
   return fetch(
     'https://qen9yylar9.execute-api.us-west-1.amazonaws.com/production/submit',

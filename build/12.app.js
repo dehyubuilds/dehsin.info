@@ -1,235 +1,144 @@
 webpackJsonp([12],{
 
-/***/ 549:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 571:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__art_scss__ = __webpack_require__(605);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__art_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__art_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_floated_section__ = __webpack_require__(592);
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 
-var _getPrototypeOf = __webpack_require__(71);
 
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(1);
 
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
 
-var _createClass2 = __webpack_require__(72);
+  enterModule && enterModule(module);
+})();
 
-var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(3);
 
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-__webpack_require__(583);
-
-var _floatedSection = __webpack_require__(569);
-
-var _floatedSection2 = _interopRequireDefault(_floatedSection);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ArtPage = function (_Component) {
-  (0, _inherits3.default)(ArtPage, _Component);
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default()(ArtPage, _Component);
 
   function ArtPage() {
-    (0, _classCallCheck3.default)(this, ArtPage);
-    return (0, _possibleConstructorReturn3.default)(this, (ArtPage.__proto__ || (0, _getPrototypeOf2.default)(ArtPage)).apply(this, arguments));
+    __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default()(this, ArtPage);
+
+    return __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (ArtPage.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(ArtPage)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(ArtPage, [{
+  __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(ArtPage, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
+      return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
         'div',
         { className: 'art-list' },
-        _react2.default.createElement(
-          _floatedSection2.default,
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_7__components_floated_section__["a" /* default */],
           { delay: 300 },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'div',
             null,
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
               'a',
               { href: 'https://500px.com/craftzdog' },
-              _react2.default.createElement('img', {
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
                 src: '/photos.jpg',
                 className: 'image-eyecatch',
                 alt: 'my photos'
               }),
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'h3',
                 null,
                 'Photography',
-                _react2.default.createElement('i', { className: 'glyphicon glyphicon-new-window' })
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('i', { className: 'glyphicon glyphicon-new-window' })
               )
             )
           )
         ),
-        _react2.default.createElement(
-          _floatedSection2.default,
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_7__components_floated_section__["a" /* default */],
           { delay: 500 },
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
             'div',
             null,
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
               'a',
               { href: 'http://illust.odoruinu.net/' },
-              _react2.default.createElement('img', {
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
                 src: '/cover.jpg',
                 className: 'image-eyecatch',
                 alt: 'my illustrations'
               }),
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'h3',
                 null,
                 'Illustrations',
-                _react2.default.createElement('i', { className: 'glyphicon glyphicon-new-window' })
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('i', { className: 'glyphicon glyphicon-new-window' })
               )
             )
           )
         )
       );
     }
-  }]);
-  return ArtPage;
-}(_react.Component);
-
-ArtPage.title = 'Art';
-exports.default = ArtPage;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ 569:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends2 = __webpack_require__(4);
-
-var _extends3 = _interopRequireDefault(_extends2);
-
-var _objectWithoutProperties2 = __webpack_require__(5);
-
-var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-var _getPrototypeOf = __webpack_require__(71);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(72);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(6);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-__webpack_require__(571);
-
-var _reactAddonsCssTransitionGroup = __webpack_require__(245);
-
-var _reactAddonsCssTransitionGroup2 = _interopRequireDefault(_reactAddonsCssTransitionGroup);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * React Static Boilerplate
- * https://github.com/koistya/react-static-boilerplate
- * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
- */
-
-var FloatedSection = function (_Component) {
-  (0, _inherits3.default)(FloatedSection, _Component);
-
-  function FloatedSection() {
-    (0, _classCallCheck3.default)(this, FloatedSection);
-    return (0, _possibleConstructorReturn3.default)(this, (FloatedSection.__proto__ || (0, _getPrototypeOf2.default)(FloatedSection)).apply(this, arguments));
-  }
-
-  (0, _createClass3.default)(FloatedSection, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          delay = _props.delay,
-          children = _props.children,
-          props = (0, _objectWithoutProperties3.default)(_props, ['delay', 'children']);
-
-      return _react2.default.createElement(
-        _reactAddonsCssTransitionGroup2.default,
-        {
-          transitionName: 'float-transition',
-          transitionAppear: true,
-          transitionAppearTimeout: 700 + delay,
-          transitionEnter: false,
-          transitionLeave: false
-        },
-        [_react2.default.createElement(
-          'section',
-          (0, _extends3.default)({
-            key: 'floated-section',
-            className: 'floated-section',
-            style: { transitionDelay: delay + 'ms' }
-          }, props),
-          children
-        )]
-      );
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
     }
   }]);
-  return FloatedSection;
-}(_react.Component);
 
-FloatedSection.propTypes = {
-  children: _propTypes2.default.node.isRequired,
-  delay: _propTypes2.default.number
-};
-FloatedSection.defaultProps = {
-  delay: 300
-};
-exports.default = FloatedSection;
-module.exports = exports['default'];
+  return ArtPage;
+}(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
+
+ArtPage.title = 'Art';
+var _default = ArtPage;
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(ArtPage, 'ArtPage', '/Users/dehsin/Desktop/dehsin.info/pages/art.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/pages/art.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
 
 /***/ }),
 
-/***/ 570:
+/***/ 591:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -241,13 +150,143 @@ exports.push([module.i, "\n.float-transition-appear {\n  opacity: 0.01;\n  -webk
 
 /***/ }),
 
-/***/ 571:
+/***/ 592:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__floated_section_scss__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__floated_section_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__floated_section_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group__);
+
+
+
+
+
+
+
+
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+
+
+
+
+
+var FloatedSection = function (_Component) {
+  __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default()(FloatedSection, _Component);
+
+  function FloatedSection() {
+    __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default()(this, FloatedSection);
+
+    return __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default()(this, (FloatedSection.__proto__ || __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default()(FloatedSection)).apply(this, arguments));
+  }
+
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default()(FloatedSection, [{
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          delay = _props.delay,
+          children = _props.children,
+          props = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default()(_props, ['delay', 'children']);
+
+      return __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group___default.a,
+        {
+          transitionName: 'float-transition',
+          transitionAppear: true,
+          transitionAppearTimeout: 700 + delay,
+          transitionEnter: false,
+          transitionLeave: false
+        },
+        [__WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+          'section',
+          __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({
+            key: 'floated-section',
+            className: 'floated-section',
+            style: { transitionDelay: delay + 'ms' }
+          }, props),
+          children
+        )]
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return FloatedSection;
+}(__WEBPACK_IMPORTED_MODULE_7_react__["Component"]);
+
+FloatedSection.propTypes = {
+  children: __WEBPACK_IMPORTED_MODULE_8_prop_types___default.a.node.isRequired,
+  delay: __WEBPACK_IMPORTED_MODULE_8_prop_types___default.a.number
+};
+FloatedSection.defaultProps = {
+  delay: 300
+};
+var _default = FloatedSection;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(FloatedSection, 'FloatedSection', '/Users/dehsin/Desktop/dehsin.info/components/floated-section.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/components/floated-section.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
+
+/***/ }),
+
+/***/ 593:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(570);
+var content = __webpack_require__(591);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -255,15 +294,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./floated-section.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./floated-section.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(591, function() {
+			var newContent = __webpack_require__(591);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}
@@ -273,10 +312,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 576:
+/***/ 596:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -288,13 +327,13 @@ exports.push([module.i, "/**\n * React Static Boilerplate\n * https://github.com
 
 /***/ }),
 
-/***/ 583:
+/***/ 605:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(576);
+var content = __webpack_require__(596);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -302,15 +341,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./art.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./art.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(596, function() {
+			var newContent = __webpack_require__(596);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}

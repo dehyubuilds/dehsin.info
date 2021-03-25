@@ -1,129 +1,122 @@
 webpackJsonp([11],{
 
-/***/ 550:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 572:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_Link__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_bootstrap__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__blogs_scss__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__blogs_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__blogs_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_floated_section__ = __webpack_require__(592);
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 
-var _getPrototypeOf = __webpack_require__(71);
 
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(1);
 
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
 
-var _createClass2 = __webpack_require__(72);
+  enterModule && enterModule(module);
+})();
 
-var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(3);
 
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(2);
 
-var _inherits3 = _interopRequireDefault(_inherits2);
 
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _Link = __webpack_require__(139);
-
-var _Link2 = _interopRequireDefault(_Link);
-
-var _reactBootstrap = __webpack_require__(244);
-
-__webpack_require__(584);
-
-var _floatedSection = __webpack_require__(569);
-
-var _floatedSection2 = _interopRequireDefault(_floatedSection);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var WorkPage = function (_Component) {
-  (0, _inherits3.default)(WorkPage, _Component);
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default()(WorkPage, _Component);
 
   function WorkPage() {
-    (0, _classCallCheck3.default)(this, WorkPage);
-    return (0, _possibleConstructorReturn3.default)(this, (WorkPage.__proto__ || (0, _getPrototypeOf2.default)(WorkPage)).apply(this, arguments));
+    __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default()(this, WorkPage);
+
+    return __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (WorkPage.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(WorkPage)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(WorkPage, [{
+  __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(WorkPage, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
+      return __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
         'div',
         { className: 'blogs-list' },
-        _react2.default.createElement(
-          _floatedSection2.default,
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_9__components_floated_section__["a" /* default */],
           { delay: 300 },
-          _react2.default.createElement(
-            _reactBootstrap.Row,
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_7_react_bootstrap__["a" /* Row */],
             null,
-            _react2.default.createElement(
-              _reactBootstrap.Col,
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_7_react_bootstrap__["b" /* Col */],
               { sm: 6 },
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'a',
                 { href: 'https://blog.craftz.dog/' },
-                _react2.default.createElement('img', {
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
                   src: '/blogs/mainblog_eyecatch.png',
                   className: 'image-eyecatch'
                 }),
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'h3',
                   null,
                   '\u9031\u4F117\u65E5\u3067\u50CD\u304D\u305F\u3044'
                 )
               ),
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'div',
                 { className: 'work-description' },
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'div',
                   null,
                   '\u30D5\u30EA\u30FC\u30E9\u30F3\u30B9\u3057\u3064\u3064\u81EA\u4F5C\u30B5\u30FC\u30D3\u30B9\u958B\u767A\u3057\u306A\u304C\u3089\u98DF\u3063\u3066\u3044\u304D\u305F\u3044\u30D6\u30ED\u30B0'
                 ),
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'div',
                   null,
                   'My main blog in Japanese'
                 )
               )
             ),
-            _react2.default.createElement(
-              _reactBootstrap.Col,
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_7_react_bootstrap__["b" /* Col */],
               { sm: 6 },
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'a',
                 { href: 'https://blog.inkdrop.info/' },
-                _react2.default.createElement('img', {
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
                   src: '/blogs/workaslife_eyecatch.png',
                   className: 'image-eyecatch'
                 }),
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'h3',
                   null,
                   'Dev as Life'
                 )
               ),
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'div',
                 { className: 'work-description' },
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'div',
                   null,
                   'I\u2019d like to quit my freelance career with my solo dev product. Here to share my experiences of this journey with you.'
                 ),
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'div',
                   null,
                   '\u82F1\u8A9E\u306E\u30E1\u30A4\u30F3\u30D6\u30ED\u30B0'
@@ -132,37 +125,37 @@ var WorkPage = function (_Component) {
             )
           )
         ),
-        _react2.default.createElement(
-          _floatedSection2.default,
+        __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+          __WEBPACK_IMPORTED_MODULE_9__components_floated_section__["a" /* default */],
           { delay: 400 },
-          _react2.default.createElement(
-            _reactBootstrap.Row,
+          __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_7_react_bootstrap__["a" /* Row */],
             null,
-            _react2.default.createElement(
-              _reactBootstrap.Col,
+            __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
+              __WEBPACK_IMPORTED_MODULE_7_react_bootstrap__["b" /* Col */],
               { sm: 6 },
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'a',
                 { href: 'http://craftzdog.hateblo.jp/' },
-                _react2.default.createElement('img', {
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement('img', {
                   src: '/blogs/subblog_eyecatch.png',
                   className: 'image-eyecatch'
                 }),
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'h3',
                   null,
                   '\u4E01\u5BE7\u306B\u624B\u3092\u629C\u304F'
                 )
               ),
-              _react2.default.createElement(
+              __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                 'div',
                 { className: 'work-description' },
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'div',
                   null,
                   '\u30E9\u30A4\u30D5\u30ED\u30B0\u7684\u306A'
                 ),
-                _react2.default.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react___default.a.createElement(
                   'div',
                   null,
                   'My life logs in Japanese'
@@ -173,132 +166,46 @@ var WorkPage = function (_Component) {
         )
       );
     }
-  }]);
-  return WorkPage;
-}(_react.Component);
-
-WorkPage.title = 'Blogs';
-exports.default = WorkPage;
-module.exports = exports['default'];
-
-/***/ }),
-
-/***/ 569:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends2 = __webpack_require__(4);
-
-var _extends3 = _interopRequireDefault(_extends2);
-
-var _objectWithoutProperties2 = __webpack_require__(5);
-
-var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
-
-var _getPrototypeOf = __webpack_require__(71);
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(1);
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(72);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(6);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-__webpack_require__(571);
-
-var _reactAddonsCssTransitionGroup = __webpack_require__(245);
-
-var _reactAddonsCssTransitionGroup2 = _interopRequireDefault(_reactAddonsCssTransitionGroup);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * React Static Boilerplate
- * https://github.com/koistya/react-static-boilerplate
- * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
- */
-
-var FloatedSection = function (_Component) {
-  (0, _inherits3.default)(FloatedSection, _Component);
-
-  function FloatedSection() {
-    (0, _classCallCheck3.default)(this, FloatedSection);
-    return (0, _possibleConstructorReturn3.default)(this, (FloatedSection.__proto__ || (0, _getPrototypeOf2.default)(FloatedSection)).apply(this, arguments));
-  }
-
-  (0, _createClass3.default)(FloatedSection, [{
-    key: 'render',
-    value: function render() {
-      var _props = this.props,
-          delay = _props.delay,
-          children = _props.children,
-          props = (0, _objectWithoutProperties3.default)(_props, ['delay', 'children']);
-
-      return _react2.default.createElement(
-        _reactAddonsCssTransitionGroup2.default,
-        {
-          transitionName: 'float-transition',
-          transitionAppear: true,
-          transitionAppearTimeout: 700 + delay,
-          transitionEnter: false,
-          transitionLeave: false
-        },
-        [_react2.default.createElement(
-          'section',
-          (0, _extends3.default)({
-            key: 'floated-section',
-            className: 'floated-section',
-            style: { transitionDelay: delay + 'ms' }
-          }, props),
-          children
-        )]
-      );
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
     }
   }]);
-  return FloatedSection;
-}(_react.Component);
 
-FloatedSection.propTypes = {
-  children: _propTypes2.default.node.isRequired,
-  delay: _propTypes2.default.number
-};
-FloatedSection.defaultProps = {
-  delay: 300
-};
-exports.default = FloatedSection;
-module.exports = exports['default'];
+  return WorkPage;
+}(__WEBPACK_IMPORTED_MODULE_5_react__["Component"]);
+
+WorkPage.title = 'Blogs';
+var _default = WorkPage;
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(WorkPage, 'WorkPage', '/Users/dehsin/Desktop/dehsin.info/pages/blogs.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/pages/blogs.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
 
 /***/ }),
 
-/***/ 570:
+/***/ 591:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -310,13 +217,143 @@ exports.push([module.i, "\n.float-transition-appear {\n  opacity: 0.01;\n  -webk
 
 /***/ }),
 
-/***/ 571:
+/***/ 592:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__floated_section_scss__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__floated_section_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__floated_section_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group__);
+
+
+
+
+
+
+
+
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+/**
+ * React Static Boilerplate
+ * https://github.com/koistya/react-static-boilerplate
+ * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
+ */
+
+
+
+
+
+
+var FloatedSection = function (_Component) {
+  __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default()(FloatedSection, _Component);
+
+  function FloatedSection() {
+    __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default()(this, FloatedSection);
+
+    return __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default()(this, (FloatedSection.__proto__ || __WEBPACK_IMPORTED_MODULE_2_babel_runtime_core_js_object_get_prototype_of___default()(FloatedSection)).apply(this, arguments));
+  }
+
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default()(FloatedSection, [{
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          delay = _props.delay,
+          children = _props.children,
+          props = __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default()(_props, ['delay', 'children']);
+
+      return __WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_10_react_addons_css_transition_group___default.a,
+        {
+          transitionName: 'float-transition',
+          transitionAppear: true,
+          transitionAppearTimeout: 700 + delay,
+          transitionEnter: false,
+          transitionLeave: false
+        },
+        [__WEBPACK_IMPORTED_MODULE_7_react___default.a.createElement(
+          'section',
+          __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({
+            key: 'floated-section',
+            className: 'floated-section',
+            style: { transitionDelay: delay + 'ms' }
+          }, props),
+          children
+        )]
+      );
+    }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return FloatedSection;
+}(__WEBPACK_IMPORTED_MODULE_7_react__["Component"]);
+
+FloatedSection.propTypes = {
+  children: __WEBPACK_IMPORTED_MODULE_8_prop_types___default.a.node.isRequired,
+  delay: __WEBPACK_IMPORTED_MODULE_8_prop_types___default.a.number
+};
+FloatedSection.defaultProps = {
+  delay: 300
+};
+var _default = FloatedSection;
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(FloatedSection, 'FloatedSection', '/Users/dehsin/Desktop/dehsin.info/components/floated-section.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/components/floated-section.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
+
+/***/ }),
+
+/***/ 593:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(570);
+var content = __webpack_require__(591);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -324,15 +361,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./floated-section.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./floated-section.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(591, function() {
+			var newContent = __webpack_require__(591);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}
@@ -342,10 +379,10 @@ if(false) {
 
 /***/ }),
 
-/***/ 577:
+/***/ 597:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -357,13 +394,13 @@ exports.push([module.i, "/**\n * React Static Boilerplate\n * https://github.com
 
 /***/ }),
 
-/***/ 584:
+/***/ 606:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(577);
+var content = __webpack_require__(597);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -371,15 +408,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./blogs.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./blogs.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(597, function() {
+			var newContent = __webpack_require__(597);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}

@@ -1,42 +1,35 @@
 webpackJsonp([15],{
 
-/***/ 552:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 574:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__followme_scss__ = __webpack_require__(608);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__followme_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__followme_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 
-var _getPrototypeOf = __webpack_require__(71);
 
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(1);
 
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+(function () {
+  var enterModule = __webpack_require__(14).enterModule;
 
-var _createClass2 = __webpack_require__(72);
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(3);
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(2);
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-__webpack_require__(586);
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+  enterModule && enterModule(module);
+})();
 
 /**
  * React Static Boilerplate
@@ -44,89 +37,93 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
+
+
+
 var ContactPage = function (_Component) {
-  (0, _inherits3.default)(ContactPage, _Component);
+  __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default()(ContactPage, _Component);
 
   function ContactPage() {
-    (0, _classCallCheck3.default)(this, ContactPage);
-    return (0, _possibleConstructorReturn3.default)(this, (ContactPage.__proto__ || (0, _getPrototypeOf2.default)(ContactPage)).apply(this, arguments));
+    __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default()(this, ContactPage);
+
+    return __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default()(this, (ContactPage.__proto__ || __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_get_prototype_of___default()(ContactPage)).apply(this, arguments));
   }
 
-  (0, _createClass3.default)(ContactPage, [{
+  __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default()(ContactPage, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement(
+      return __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
         'div',
         { className: 'content' },
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
           'h2',
           null,
           'Takuya Matsuyama'
         ),
-        _react2.default.createElement(
+        __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
           'ul',
           null,
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
             'li',
             null,
-            _react2.default.createElement('i', { className: 'fab fa-youtube' }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('i', { className: 'fab fa-youtube' }),
             '\xA0 Channel :\xA0',
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
               'a',
               { href: 'https://www.youtube.com/c/devaslife' },
               'devaslife'
             )
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
             'li',
             null,
-            _react2.default.createElement('i', { className: 'fab fa-twitter' }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('i', { className: 'fab fa-twitter' }),
             '\xA0 English :\xA0',
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
               'a',
               { href: 'https://twitter.com/inkdrop_app' },
               '@inkdrop_app'
             )
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
             'li',
             null,
-            _react2.default.createElement('i', { className: 'fab fa-twitter' }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('i', { className: 'fab fa-twitter' }),
             '\xA0 Japanese :\xA0',
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
               'a',
               { href: 'https://twitter.com/craftzdog' },
               '@craftzdog'
             )
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
             'li',
             null,
-            _react2.default.createElement('i', { className: 'fab fa-instagram' }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('i', { className: 'fab fa-instagram' }),
             '\xA0:\xA0',
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
               'a',
               { href: 'https://www.instagram.com/craftzdog' },
               '@craftzdog'
             )
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
             'li',
             null,
-            _react2.default.createElement('i', { className: 'fab fa-github' }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('i', { className: 'fab fa-github' }),
             '\xA0:\xA0',
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
               'a',
               { href: 'https://github.com/craftzdog' },
               '@craftzdog'
             )
           ),
-          _react2.default.createElement(
+          __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
             'li',
             null,
-            _react2.default.createElement('i', { className: 'fas fa-home' }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('i', { className: 'fas fa-home' }),
             '\xA0:\xA0',
-            _react2.default.createElement(
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
               'a',
               { href: 'https://www.craftz.dog/' },
               'craftz.dog'
@@ -135,22 +132,48 @@ var ContactPage = function (_Component) {
         )
       );
     }
+  }, {
+    key: '__reactstandin__regenerateByEval',
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
   }]);
+
   return ContactPage;
-}(_react.Component);
+}(__WEBPACK_IMPORTED_MODULE_6_react__["Component"]);
 
 ContactPage.title = 'Contact to Takuya';
 ContactPage.image = '/me.jpg';
 ContactPage.description = 'Contact form';
-exports.default = ContactPage;
-module.exports = exports['default'];
+var _default = ContactPage;
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__(14).default;
+
+  var leaveModule = __webpack_require__(14).leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(ContactPage, 'ContactPage', '/Users/dehsin/Desktop/dehsin.info/pages/followme.js');
+  reactHotLoader.register(_default, 'default', '/Users/dehsin/Desktop/dehsin.info/pages/followme.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(40)(module)))
 
 /***/ }),
 
-/***/ 579:
+/***/ 599:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(44)(false);
+exports = module.exports = __webpack_require__(46)(false);
 // imports
 
 
@@ -162,13 +185,13 @@ exports.push([module.i, ".page-followme .header-left-side {\n    display: none;\
 
 /***/ }),
 
-/***/ 586:
+/***/ 608:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(579);
+var content = __webpack_require__(599);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -176,15 +199,15 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(45)(content, options);
+var update = __webpack_require__(47)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
-if(false) {
+if(true) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./followme.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js??ref--7-2!./followme.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+		module.hot.accept(599, function() {
+			var newContent = __webpack_require__(599);
+			if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 			update(newContent);
 		});
 	}
